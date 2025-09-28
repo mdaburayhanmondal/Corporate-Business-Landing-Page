@@ -355,7 +355,7 @@ h4{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     
 }
@@ -365,11 +365,12 @@ h4{
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 0.7rem;
     padding: 1rem 0.7rem;
-    max-width: calc((100% / 3));
+    flex-grow: 1;
+    max-width: calc(100% / 3);
 }
 
 .serviceCard i{
